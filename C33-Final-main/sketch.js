@@ -19,10 +19,10 @@ var isLaughing = false;
 function preload() {
   backgroundImg = loadImage("./assets/background.gif");
   towerImage = loadImage("./assets/tower.png");
-  boatSpritedata = loadJSON("assets/boat/boat.json");
-  boatSpritesheet = loadImage("assets/boat/boat.png");
-  brokenBoatSpritedata = loadJSON("assets/boat/broken_boat.json");
-  brokenBoatSpritesheet = loadImage("assets/boat/broken_boat.png");
+  boatSpritedata = loadJSON("./assets/boat/boat.json");
+  boatSpritesheet = loadImage("./assets/boat/boat.png");
+  brokenBoatSpritedata = loadJSON("./assets/boat/broken_boat.json");
+  brokenBoatSpritesheet = loadImage("./assets/boat/broken_boat.png");
  
   cannonExplosion = loadSound("./assets/cannon_explosion.mp3");
 }
